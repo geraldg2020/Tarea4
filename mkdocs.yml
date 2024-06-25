@@ -1,0 +1,7 @@
+site_name: Ecuaciones Diferenciales Ordinarias
+
+theme:
+  name: "material"
+
+plugins:
+  - mkdocstrings
