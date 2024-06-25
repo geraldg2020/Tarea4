@@ -11,7 +11,7 @@ def funcion_ode(_t, _x):
         _t (double): valor del lapso temporal
         _x (double): valor de la función base de la función diferencial en el momento _t.
     
-    Salida:
+    Returns:
         double: El método devuelve el valor de la ecuación diferencial.
     
     Examples:
@@ -78,12 +78,12 @@ def runge_kutta_2(_a, _b, _h, _x_inicial):
         h (double): esparcimiento, amplitud de los pasos
         x_inicial (double): valor inicial de x
         
-    Salidas:
+    Returns:
         El método devuelve dos vectores. 
         vector[double]: El primer vector contiene los valores de la función
         vector[double]: El segundo vector contiene los valores sobre el eje x correspondientes.
     
-    Ejemplo:
+    Examples:
         a = -1
         b = 0
         h = 0.01
@@ -129,13 +129,13 @@ def runge_kutta_4(_a, _b, _h, _x_inicial):
         h (double): esparcimiento, amplitud de los pasos
         x_inicial (double): valor inicial de x
         
-    Salidas:
+    Returns:
         El método devuelve dos vectores. 
         vector[double]: El primer vector contiene los valores de la función
         vector[double]: El segundo vector contiene los valores sobre el eje x correspondientes.
     
     
-    Ejemplo:
+    Examples:
         a = -1
         b = 0
         h = 0.01
