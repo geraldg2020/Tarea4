@@ -14,7 +14,7 @@ def funcion_ode(_t, _x):
     Salida:
         double: El método devuelve el valor de la ecuación diferencial.
     
-    Ejemplo:
+    Examples:
         >>> print(funcion_ode(2, 1))
         4.0
     
@@ -32,12 +32,12 @@ def metodo_euler(_a, _b, _h, _x_inicial):
         h (double): esparcimiento, amplitud de los pasos
         x_inicial (double): valor inicial de x
         
-    Salidas:
+    Returns:
         El método devuelve dos vectores. 
         vector[double]: El primer vector contiene los valores de la función
         vector[double]: El segundo vector contiene los valores sobre el eje x correspondientes.
     
-    Ejemplo:
+   Examples:
         a = -1
         b = 0
         h = 0.01
