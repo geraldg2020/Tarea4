@@ -37,7 +37,7 @@ def metodo_euler(_a, _b, _h, _x_inicial):
         vector[double]: El primer vector contiene los valores de la función
         vector[double]: El segundo vector contiene los valores sobre el eje x correspondientes.
     
-   Examples:
+    Examples:
         a = -1
         b = 0
         h = 0.01
